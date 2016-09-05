@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 FEB 2016 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 AUG 2016 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,20 +885,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 138.
 
-
-Overfull \hbox (5.36554pt too wide) in paragraph at lines 142--142
- [][]\T1/lmr/m/n/10 (-20) Documentation[]|
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
 
 (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 9BCF79E55E63A0705D6C1B9E9B44F647;332.
 
@@ -907,11 +902,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17561 strings out of 493089
- 293511 string characters out of 6134842
- 386743 words of memory out of 5000000
+ 17563 strings out of 493089
+ 293533 string characters out of 6134842
+ 387743 words of memory out of 5000000
  20838 multiletter control sequences out of 15000+600000
- 71161 words of font info for 67 fonts, out of 8000000 for 9000
+ 71244 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,45p,10358b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -926,7 +921,7 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive
 f-dist/fonts/type1/public/lm/lmro17.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/lm/lmro9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/marvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 289295 bytes).
+Output written on resume.pdf (1 page, 286599 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
