@@ -19,13 +19,13 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.92]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\firstname{Chuan Yui} % Your first name
-\familyname{Teh} % Your last name
+\firstname{Chuanyui} % Your first name
+\familyname{Teh}% Your last name
 \title{Resumé}                               % optional, remove / comment the line if not wanted
 \address{APT 1348, 1000th Northside DR NW}{Atlanta, GA 30318}
 
@@ -53,7 +53,7 @@
 \makecvtitle
 
 \section{Objective}
-\cvline{}{To obtain a computer visual and interaction related internship that
+\cvline{}{To obtain an interactive computing and visualization related internship that
 will enable me to further develop my skill and passion in real world problems.}
 % \cvlistitem{Passionate student dedicated to quality. Quick responds to the changing needs of the project, and adaptation to new development field.}
 
@@ -63,19 +63,14 @@ will enable me to further develop my skill and passion in real world problems.}
 
 \section{Education}
 
-\cventry{2015--2018}{Georgia Institute of Technology}{Atlanta, Georgia}{}{}{}
-\cventry{}{\textbf{Bachelor of Science in Computer Science}}{}{}{}{
+\cventry{2015--2018 (Enrolling)}{Georgia Institute of Technology}{Atlanta, Georgia}{}{\newline\textbf{Bachelor of Science in Computer Science}}{
   \begin{itemize}
   \item{Year: Junior}
-  \item{Concentration:
-    \begin{itemize}
-    \item{\textit{Media}}
-    \item{\textit{Artificial Intelligence}}
-    \end{itemize}}
+  \item{Concentration: \textit{Media \& Artificial Intelligence}}
   \end{itemize}
 }
   % Arguments not required can be left empty
-\cventry{2013--2015}{Edmonds Community College}{Lynnwood, Washington}
+\cventry{2013--2015 (Transferred)}{Edmonds Community College}{Lynnwood, Washington}
 {}{}{
   \begin{itemize}
   \item{GPA: 3.77}
@@ -136,31 +131,53 @@ will enable me to further develop my skill and passion in real world problems.}
 
 \section{Skills}
 
-\cvitem{Programming}{ \textbf{Java}, \textbf{C}, \textbf{C\#}, \textbf{Python}, \newline\textbf{\textsc{HTML} \& CSS}, \textbf{JavaScript}, \textbf{jQuery}, \newline\textbf{mySQL}, \textbf{TypeScript} }
-\cvitem{Experience}{\textbf{Node.js}, \textbf{Socket.io}, \textbf{Express}, \newline\textbf{PhoneGap}, \textbf{Unity}, \textbf{Android}, \newline\textbf{LaTex}, \textbf{photoshop}, \textbf{Assembly} }
-\cvitem{Knowledge}{Design Patterns, Agile and Scrum, REST, Data structures \& Algorithm}
-\cvitem{Languages}{Chinese (\emph{native}), English (\emph{fluent}), Korean (\emph{basic}), Malaysian (\emph{basic})}
+\cvitem{Programming}{ \textbf{Java}, \textbf{C\#}, \textbf{C}, \textbf{Python}, \newline\textbf{\textsc{HTML} \& CSS}, \textbf{JavaScript}, \textbf{MySQL} }
+\cvitem{Experience}{Node, Socket.io, TypeScript \newline Unity, Android, PhoneGap \newline LaTex, Assembly, Photoshop }
+\cvitem{Knowledge}{Design Patterns, Agile and Scrum, Data structures, Algorithm}
+\cvitem{Languages}{Chinese (\emph{native}), English (\emph{fluent}), Korean (\emph{basic})}
 
 %----------------------------------------------------------------------------------------
 % PROJECTS
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
+\cvitem{Simulation}{N-body simulation
+\begin{itemize}
+  \item{It simulates a dynamical system of particles, under the influence of forces.}
+  \item{To compute N numberof particles' interaction is challenging since it is computationally expensive.}
+  \item{Does not use any external physic engine or library for practice purpose.}
+  \item{Written using Javascript - {\color{blue}\url{https://evanyui.github.io/projects/project_PS/index.html}}}
+\end{itemize}}
 
-\cvitem{Sudoku}{A sudoku solver and generator with my own algorithm - (2015) \textbf{Java}}
-\cvitem{Mobile App}{Car locater android application published on playStore - (2015) \textbf{Android Java}}
-\cvitem{Team}{Atari's classic M.U.L.E game remake - (2015) \textbf{JavaFX}}
-\cvitem{Gameboy Game}{1. Starwars space shooter, first exploration into mode3 of GBA - (2015) \textbf{C} \newline 2. Megaman X duplication, exploration on mode4 of GBA - (2015) \textbf{C}}
-\cvitem{Simulation}{Web-based n-body simulation, made without libraries, my own data structure and physics engine - (2015) \textbf{Javascript}}
-\cvitem{Research}{Georgia Tech Scholarly Articles Database library, mainly biomedical subjects - (2015) Full-stack}
-\cvitem{Mobile Game}{A 3D stack game published on playstore made with Unity - (2016) \textbf{C\#}}
-\cvitem{Mobile Game}{A space simulation Game published on playstore - (2016) \textbf{PhoneGap, TypeScript}}
-\cvitem{Unity Game}{Multiplayer Tank Game made with Unity - (2016) \textbf{C\#}}
-\cvitem{Research}{Argonjs: Web AR library from Georgia Tech - (2016) \textbf{Android, iOs, TypeScript}}
-\cvitem{WebAR}{AR web game made with Argonjs and A-frame - (2016) \textbf{Javascript}}
+\cvitem{Research}{Argon.js
+\begin{itemize}
+  \item{A javascript framework for adding augmented reality content to web applications - {\color{blue}\url{http://argonjs.io/}}}
+  \item{The Argon project was created in the Augmented Environments Lab at Georgia Tech, with support from the National Science Foundation, Georgia Tech’s GVU Center and Institute for People and Technology, and companies including Qualcomm and Alcatel-Lucent.}
+  \item{One of my game demo using Argon.js, A-frame and shake.js - {\color{blue}\url{http://www.evanyui.com/patronusAR/}}}
+\end{itemize}}
 
+\cvitem{Game}{
+\begin{itemize}
+  \item{Physic based space game written with PhoneGap and TypeScript - {\color{blue}\href{https://play.google.com/store/apps/details?id=com.evanyui.stargazer&hl=en}{Stargazer (On Play Store)}}}
+  \item{Replica of Stack for practice purpose written with Unity - {\color{blue}\href{https://play.google.com/store/apps/details?id=com.evanyui.superstack&hl=en}{Super Stack (On Play Store)}}}
+  \item{Two player Tank Game written with Unity - {\color{blue}\url{http://www.evanyui.com/Tanks/}}}
+  \item{Gameboy Game, replica of Megaman written in C - {\color{blue}\url{https://github.com/evanyui/megamanX}}}
+\end{itemize}}
 
-
+\cvitem{Artificial Intelligence}{Flocking Boids Simulation
+  \begin{itemize}
+    \item{A model imitating animal motion and behavior such as bid flocks and fish schools.}
+    \item{Referenced from \textit{Nature of Code} by \textit{Daniel Shiffman}
+          and the thesis by \textit{Craig Reynolds}.}
+    \item{Each individual boid maneuvers based on the positions and velocities of its nearby flockmates.}
+    \item{Their flocking behavior consists of three parts:
+      \begin{itemize}
+        \item{Separation: steer to avoid crowding local flockmates. Avoidance implementation is similar.}
+        \item{Alignment: steer towards the average heading of local flockmates.}
+        \item{Cohesion: steer to move toward the average position of local flockmates.}
+      \end{itemize}}
+    \item{Written using Javascript and p5.js(Processing js library) - {\color{blue}\url{https://evanyui.github.io/projects/boids/index.html}}}
+  \end{itemize}}
 
 
 %----------------------------------------------------------------------------------------
