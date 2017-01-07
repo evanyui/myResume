@@ -7,6 +7,7 @@
 
 
 \documentclass[10pt,a4paper,arial]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{xcolor}
 
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -19,7 +20,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.92]{geometry}
+\usepackage[scale=0.85]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -27,7 +28,7 @@
 \firstname{Chuanyui} % Your first name
 \familyname{Teh}% Your last name
 \title{Resumé}                               % optional, remove / comment the line if not wanted
-\address{APT 1348, 1000th Northside DR NW}{Atlanta, GA 30318}
+\address{APT 1348, 1000 Northside DR NW}{Atlanta, GA 30318}
 
 \phone[mobile]{+1~(425)~273~3739}
 
@@ -54,7 +55,7 @@
 
 \section{Objective}
 \cvline{}{To obtain an interactive computing and visualization related internship that
-will enable me to further develop my skill and passion in real world problems.}
+will enable me to further develop my skill and utilizes them for the benefit of the company.}
 % \cvlistitem{Passionate student dedicated to quality. Quick responds to the changing needs of the project, and adaptation to new development field.}
 
 %----------------------------------------------------------------------------------------
@@ -66,7 +67,7 @@ will enable me to further develop my skill and passion in real world problems.}
 \cventry{2015--2018 (Enrolling)}{Georgia Institute of Technology}{Atlanta, Georgia}{}{\newline\textbf{Bachelor of Science in Computer Science}}{
   \begin{itemize}
   \item{Year: Junior}
-  \item{Concentration: \textit{Media \& Artificial Intelligence}}
+  \item{Concentration: Media \& Artificial Intelligence}
   \end{itemize}
 }
   % Arguments not required can be left empty
@@ -141,42 +142,42 @@ will enable me to further develop my skill and passion in real world problems.}
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
-\cvitem{Simulation}{N-body simulation
+\cvitem{Simulation}{\textbf{N-body Simulation}
 \begin{itemize}
-  \item{It simulates a dynamical system of particles, under the influence of forces.}
-  \item{To compute N numberof particles' interaction is challenging since it is computationally expensive.}
-  \item{Does not use any external physic engine or library for practice purpose.}
-  \item{Written using Javascript - {\color{blue}\url{https://evanyui.github.io/projects/project_PS/index.html}}}
+  \item[--]{Simulates a dynamical system of particles under the influence of forces.}
+  \item[--]{it is computationally expensive to compute N numberof particles' interaction.}
+  \item[--]{Does not use any external physic engine or library for practice purpose.}
+  \item[--]{Written using Javascript - \textbf{\color[RGB]{19,76,136} \url{https://evanyui.github.io/projects/project_PS/index.html}}}
 \end{itemize}}
 
-\cvitem{Research}{Argon.js
+\cvitem{Research}{\textbf{Argon.js}
 \begin{itemize}
-  \item{A javascript framework for adding augmented reality content to web applications - {\color{blue}\url{http://argonjs.io/}}}
-  \item{The Argon project was created in the Augmented Environments Lab at Georgia Tech, with support from the National Science Foundation, Georgia Tech’s GVU Center and Institute for People and Technology, and companies including Qualcomm and Alcatel-Lucent.}
-  \item{One of my game demo using Argon.js, A-frame and shake.js - {\color{blue}\url{http://www.evanyui.com/patronusAR/}}}
+  \item[--]{Javascript framework to add augmented reality content to web applications - \textbf{\color[RGB]{19,76,136}\url{http://argonjs.io/}}}
+  \item[--]{The Argon project was created in the Augmented Environments Lab at Georgia Tech.}
+  \item[--]{Game demo using Argon.js, A-frame and shake.js - \textbf{\color[RGB]{19,76,136}\url{http://www.evanyui.com/patronusAR/}}}
 \end{itemize}}
 
 \cvitem{Game}{
 \begin{itemize}
-  \item{Physic based space game written with PhoneGap and TypeScript - {\color{blue}\href{https://play.google.com/store/apps/details?id=com.evanyui.stargazer&hl=en}{Stargazer (On Play Store)}}}
-  \item{Replica of Stack for practice purpose written with Unity - {\color{blue}\href{https://play.google.com/store/apps/details?id=com.evanyui.superstack&hl=en}{Super Stack (On Play Store)}}}
-  \item{Two player Tank Game written with Unity - {\color{blue}\url{http://www.evanyui.com/Tanks/}}}
-  \item{Gameboy Game, replica of Megaman written in C - {\color{blue}\url{https://github.com/evanyui/megamanX}}}
+  \item[--]{Physic based space game written with PhoneGap and TypeScript - {\color[RGB]{19,76,136}\href{https://play.google.com/store/apps/details?id=com.evanyui.stargazer&hl=en}{\small \textbf{Stargazer (On Play Store)}}}}
+  \item[--]{Replica of Stack written with Unity - {\color[RGB]{19,76,136}\href{https://play.google.com/store/apps/details?id=com.evanyui.superstack&hl=en}{\small \textbf{Super Stack (On Play Store)}}}}
+  \item[--]{Two player Tank Game written with Unity - \textbf{\color[RGB]{19,76,136}\url{http://www.evanyui.com/Tanks/}}}
+  \item[--]{Replica of Megaman for Gameboy written in C - \textbf{\color[RGB]{19,76,136}\url{https://github.com/evanyui/megamanX}}}
 \end{itemize}}
 
-\cvitem{Artificial Intelligence}{Flocking Boids Simulation
+\cvitem{Artificial Intelligence}{\textbf{Flocking Boids Simulation}
   \begin{itemize}
-    \item{A model imitating animal motion and behavior such as bid flocks and fish schools.}
-    \item{Referenced from \textit{Nature of Code} by \textit{Daniel Shiffman}
-          and the thesis by \textit{Craig Reynolds}.}
-    \item{Each individual boid maneuvers based on the positions and velocities of its nearby flockmates.}
-    \item{Their flocking behavior consists of three parts:
-      \begin{itemize}
-        \item{Separation: steer to avoid crowding local flockmates. Avoidance implementation is similar.}
-        \item{Alignment: steer towards the average heading of local flockmates.}
-        \item{Cohesion: steer to move toward the average position of local flockmates.}
-      \end{itemize}}
-    \item{Written using Javascript and p5.js(Processing js library) - {\color{blue}\url{https://evanyui.github.io/projects/boids/index.html}}}
+    \item[--]{A model imitating animal motion such as bird flocks and fish schools.}
+    \item[--]{Referenced from \textit{Nature of Code} by \textit{Daniel Shiffman}
+          and thesis by \textit{Craig Reynolds}.}
+    \item[--]{Each individual maneuvers based on the positions and velocities of its nearby flockmates.}
+    \item[--]{Flocking behavior implements the idea of: Separation, Alignment, and Cohesion.}
+      % \begin{itemize}
+      %   \item{Separation: steer to avoid crowding local flockmates. Avoidance implementation is similar.}
+      %   \item{Alignment: steer towards the average heading of local flockmates.}
+      %   \item{Cohesion: steer to move toward the average position of local flockmates.}
+      % \end{itemize}}
+    \item[--]{Written using Javascript and p5.js (Processing library) - \textbf{\color[RGB]{19,76,136}\url{https://evanyui.github.io/projects/boids/index.html}}}
   \end{itemize}}
 
 
