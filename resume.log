@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 JAN 2017 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JAN 2017 08:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,15 +792,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(44.81126pt, 507.88533pt, 44.81128pt)
-* v-part:(T,H,B)=(50.70074pt, 718.29497pt, 76.05113pt)
+* h-part:(L,W,R)=(47.80173pt, 501.90442pt, 47.80173pt)
+* v-part:(T,H,B)=(54.08423pt, 709.83624pt, 81.12637pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=507.88533pt
-* \textheight=718.29497pt
-* \oddsidemargin=-27.45872pt
-* \evensidemargin=-27.45872pt
-* \topmargin=-58.56924pt
+* \textwidth=501.90442pt
+* \textheight=709.83624pt
+* \oddsidemargin=-24.46826pt
+* \evensidemargin=-24.46826pt
+* \topmargin=-55.18576pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -878,45 +878,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 58.
+(Font)              <10> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 60.
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 135.
+(Font)              using `T1/lmr/bx/n' instead on input line 137.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 151.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 152.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 151.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 152.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 9BCF79E55E63A0705D6C1B9E9B44F647;332.
+(rerunfilecheck)             Checksum: EFF39E80924943C7F0103838E58EC256;322.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17600 strings out of 493089
- 294143 string characters out of 6134842
- 388702 words of memory out of 5000000
- 20875 multiletter control sequences out of 15000+600000
- 64022 words of font info for 65 fonts, out of 8000000 for 9000
+ 17593 strings out of 493089
+ 294047 string characters out of 6134842
+ 387664 words of memory out of 5000000
+ 20873 multiletter control sequences out of 15000+600000
+ 60819 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,45p,10377b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -927,14 +927,13 @@ pe1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
 lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr9.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/lm/lmro17.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/lm/lmro9.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/lm/lmtk10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/marvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 310054 bytes).
+/2015/texmf-dist/fonts/type1/public/lm/lmro9.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/marvosym/marvosym.pfb>
+Output written on resume.pdf (1 page, 286010 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 20001 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 19489 words of extra memory for PDF output out of 20736 (max. 10000000)
 
