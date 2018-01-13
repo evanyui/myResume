@@ -5,7 +5,6 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-
 \documentclass[10pt,a4paper,arial]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \usepackage{xcolor}
 
@@ -57,7 +56,7 @@
 % \cvline{}{To obtain an interactive computing and visualization related internship that
 % will enable me to further develop my skill and utilizes them for the benefit of the company.}
 % \cvline{}{Passionate in code quality and quick response to adapt new project needs.
-\cvline{}{Passionate in code quality and always further develop my skills to
+\cvline{}{Quick adaptation. Passionate in code quality. Always further develop skills to
     utilize them for the benefit of the company.}
 % \cvlistitem{Passionate student dedicated to quality. Quick responds to the changing needs of the project, and adaptation to new development field.}
 
@@ -67,7 +66,7 @@
 
 \section{Education}
 
-\cventry{2015--2018 (Enrolling)}{Georgia Institute of Technology}{Atlanta, Georgia}{}{\newline\textbf{Bachelor of Science in Computer Science}}{
+\cventry{2015--2018}{Georgia Institute of Technology}{Atlanta, Georgia}{}{\newline\textbf{Bachelor of Science in Computer Science}}{
   \begin{itemize}
   \item{Year: Senior}
   \item{Concentration: Media \& Artificial Intelligence}
@@ -88,8 +87,8 @@
 Team project used to run simulations on production requests. My project is a
 feature on the service that would be used to reply past transactions
 with specified simulations.}
-  \item{Goal: This feature would help us backfill data for newly created
-simulations without having to wait for new requests. Can rerun simulation when production
+  \item{Goal: This feature would help the team backfill data for newly created
+simulations without having to wait for new requests. It can also rerun simulation when production
 simulation is down due to internal failure.}
   \end{itemize}
 }
@@ -118,30 +117,31 @@ simulation is down due to internal failure.}
 
 \section{Skills}
 
-\cvitem{Programming}{ \textbf{Java} | \textbf{Python} | \textbf{\textsc{HTML} \& CSS} | \textbf{JavaScript} | \textbf{MySQL}}
+\cvitem{Programming}{ \textbf{Java} | \textbf{Python} | \textbf{\textsc{HTML} \& CSS} | \textbf{JavaScript}}
 \cvitem{Experience}{AWS S3 | AWS SQS | AWS CloudSearch 
-\newline Node.js | Socket.io | TypeScript 
-\newline Unity | Android | PhoneGap 
-\newline LaTex | Assembly | C\# }
-\cvitem{Knowledge}{Design Patterns, Agile and Scrum, Data structures, Algorithm}
+\newline Node.js | Socket.io | MongoDB  
+\newline Unity | Latex }  
+\cvitem{Knowledge}{Agile and Scrum, Data structures, Algorithm}
 
 %----------------------------------------------------------------------------------------
 % PROJECTS
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
-\cvitem{Simulation}{\textbf{N-body Simulation}
-\begin{itemize}
-  \item[--]{Simulates a dynamical system of particles under the influence of forces.}
-  \item[--]{Does not use any external physic engine or library for practice purpose.}
-  \item[--]{Written using Javascript - \textbf{\color[RGB]{19,76,136} \url{https://evanyui.github.io/projects/project_PS/index.html}}}
-\end{itemize}}
+% \cvitem{Simulation}{\textbf{N-body Simulation}
+% \begin{itemize}
+%   \item[--]{Simulates a dynamical system of particles under the influence of forces.}
+%   \item[--]{Does not use any external physic engine or library for practice purpose.}
+%   \item[--]{Written using Javascript - \textbf{\color[RGB]{19,76,136} \url{https://evanyui.github.io/projects/project_PS/index.html}}}
+% \end{itemize}}
 
 \cvitem{Research}{\textbf{Argon.js}
 \begin{itemize}
-  \item[--]{Javascript framework to add augmented reality content to web applications - \textbf{\color[RGB]{19,76,136}\url{http://argonjs.io/}}}
-  \item[--]{Developed Demos and documentation on Argon at Georgia Tech's Augmented Environments Lab.}
-  \item[--]{Game demo using Argon.js, A-frame and shake.js - \textbf{\color[RGB]{19,76,136}\url{http://www.evanyui.com/patronusAR/}}}
+  \item[--]{A javascript framework to add augmented reality content to web applications}
+  \item[--]{Developed Storytracker's backend server to
+      store location data posted by users. Datas can then be requested by users to
+        draw on a google map and form a 3d line like a route.}
+  \item[--]{Developed Game demo using Argon.js, A-frame and shake.js}
 \end{itemize}}
 
 %\cvitem{Game}{
@@ -157,16 +157,25 @@ simulation is down due to internal failure.}
     \item[--]{A model imitating animal motion such as bird flocks and fish schools.}
 %    \item[--]{Referenced from \textit{Nature of Code} by \textit{Daniel Shiffman}
 %          and thesis by \textit{Craig Reynolds}.}
-    \item[--]{Each individual maneuvers based on the positions and velocities of its nearby flockmates.}
+    % \item[--]{Each individual maneuvers based on the positions and velocities of its nearby flockmates.}
     \item[--]{Flocking behavior implements the idea of: Separation, Alignment, and Cohesion.}
       % \begin{itemize}
       %   \item{Separation: steer to avoid crowding local flockmates. Avoidance implementation is similar.}
       %   \item{Alignment: steer towards the average heading of local flockmates.}
       %   \item{Cohesion: steer to move toward the average position of local flockmates.}
       % \end{itemize}}
-    \item[--]{Written using Javascript and p5.js (Processing library) - \textbf{\color[RGB]{19,76,136}\url{https://evanyui.github.io/projects/boids/index.html}}}
+    \item[--]{Written using Javascript and p5.js - \textbf{\color[RGB]{19,76,136}\url{https://evanyui.github.io/projects/boids/index.html}}}
   \end{itemize}}
 
+\cvitem{Chrome Extension}{\textbf{Clink}
+  \begin{itemize}
+    \item[--]{A chrome extension to share links easier and faster without
+        social app message platform.}
+%    \item[--]{Referenced from \textit{Nature of Code} by \textit{Daniel Shiffman}
+%          and thesis by \textit{Craig Reynolds}.}
+    \item[--]{Developed with MEAN stack. Created different browsers'
+        extensions, web application, and possibly mobile apps in the future.}
+  \end{itemize}}
 
 %----------------------------------------------------------------------------------------
 % ACTIVITIES
